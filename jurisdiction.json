@@ -1,0 +1,11 @@
+{
+  "path": "ru-pnz",
+  "code": "RU-PNZ",
+  "name": "Penza Oblast",
+  "level": "region",
+  "parent": "ru",
+  "repo": "https://github.com/lexifina/russia-penza-law",
+  "build": "catalogue: facts only, no law text (Official Internet Portal of Legal Information metadata)",
+  "language": "ru",
+  "sources": 1
+}
