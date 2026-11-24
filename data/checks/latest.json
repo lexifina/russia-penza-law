@@ -1,0 +1,132 @@
+{
+ "generated": "2026-11-24T14:37:29Z",
+ "latest": {
+  "pravo-penza|russia/penza/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 2257,
+    "current": 2232,
+    "gone": 0,
+    "held": 2232,
+    "newest_in_repo": "2026-10-16",
+    "pending": 25,
+    "repo": 2232,
+    "source_in_scope": 2257
+   },
+   "check_id": "ru-pravo-penza-20261124T142454Z",
+   "commits": {
+    "count": 2,
+    "from": "fd6a692b518731f0efe5035ec17b7b86f53743be",
+    "to": "04266c0e05c5c11f54a1a10abece490d6d43e35c"
+   },
+   "corpus": "russia/penza/acts",
+   "error": null,
+   "finished": "2026-11-24T14:37:28Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region58: 2257 law-type documents listed (every page read); 2232 held here; 25 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
+   "published": {
+    "added": [
+     "5800202611200001",
+     "5800202611200002",
+     "5800202611200003",
+     "5800202611200004",
+     "5800202611200006",
+     "5800202611200007",
+     "5800202611200009",
+     "5800202611200010",
+     "5800202611200011",
+     "5800202611200012",
+     "5800202611200014",
+     "5800202611200015",
+     "5800202611200016",
+     "5800202611200017",
+     "5800202611200018",
+     "5800202611200019",
+     "5800202611200020",
+     "5800202611200022",
+     "5800202611200023",
+     "5800202611200025",
+     "5800202611200028",
+     "5800202611200029",
+     "5800202611200030",
+     "5800202611200031",
+     "5800202611200034"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 15,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [
+     "5800202611200001",
+     "5800202611200002",
+     "5800202611200003",
+     "5800202611200004",
+     "5800202611200006",
+     "5800202611200007",
+     "5800202611200009",
+     "5800202611200010",
+     "5800202611200011",
+     "5800202611200012",
+     "5800202611200014",
+     "5800202611200015",
+     "5800202611200016",
+     "5800202611200017",
+     "5800202611200018",
+     "5800202611200019",
+     "5800202611200020",
+     "5800202611200022",
+     "5800202611200023",
+     "5800202611200025",
+     "5800202611200028",
+     "5800202611200029",
+     "5800202611200030",
+     "5800202611200031",
+     "5800202611200034"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "2257 law-type documents in block region58; newest published 2026-11-20",
+   "source": "pravo-penza",
+   "started": "2026-11-24T14:24:54Z",
+   "unexplained": 0,
+   "update": {
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261124-001.json"
+    ]
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 13,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 13,
+    "versions_checked": 186,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}
