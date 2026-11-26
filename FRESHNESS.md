@@ -6,7 +6,7 @@ How global-law measures how current every country is: [global-law FRESHNESS.md](
 
 ### Penza Oblast: Official Internet Portal of Legal Information (region58) · `russia/penza/acts`
 
-- The official source last read and every act held here checked against it: **2026-11-25 06:25 UTC**.
+- The official source last read and every act held here checked against it: **2026-11-26 05:50 UTC**.
 - Acts held here: 2 257; current at the source: 2 257; changed at the source since the version held here: 0; no longer at the source: 0.
 - Not published: 0 (—); with no reason: 0.
 

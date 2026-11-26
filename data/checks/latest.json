@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T07:01:45Z",
+ "generated": "2026-11-26T06:18:54Z",
  "latest": {
   "pravo-penza|russia/penza/acts": {
    "attempt": 1,
@@ -21,11 +21,11 @@
     "repo": 2257,
     "source_in_scope": 2257
    },
-   "check_id": "ru-pravo-penza-20261125T062425Z",
+   "check_id": "ru-pravo-penza-20261126T054923Z",
    "commits": null,
    "corpus": "russia/penza/acts",
    "error": null,
-   "finished": "2026-11-25T06:25:20Z",
+   "finished": "2026-11-26T05:50:13Z",
    "flags": [],
    "gap": 0,
    "note": "publication.pravo.gov.ru, block region58: 2257 law-type documents listed (every page read); 2257 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
@@ -45,7 +45,7 @@
    },
    "snapshot": "2257 law-type documents in block region58; newest published 2026-11-20",
    "source": "pravo-penza",
-   "started": "2026-11-25T06:24:25Z",
+   "started": "2026-11-26T05:49:23Z",
    "unexplained": 0,
    "update": {
     "parts": []
